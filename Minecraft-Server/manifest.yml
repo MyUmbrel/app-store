@@ -1,0 +1,12 @@
+manifestVersion: 1
+id: app-id
+category: category
+name: App Name
+version: "1.0.0"
+tagline: Short description of the app
+description: Full description of the app
+developer: Your Name
+website: https://yourappwebsite.com
+dependencies: []
+repo: https://github.com/yourusername/yourapp
+support: https://github.com/yourusername/yourapp/issues
