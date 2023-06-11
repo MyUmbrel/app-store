@@ -1,0 +1,9 @@
+{
+  "name": "Minecraft Server",
+  "version": "1.0.0",
+  "description": "A Minecraft server running in a Docker container.",
+  "slug": "minecraft",
+  "developer": "Your Name",
+  "website": "https://yourwebsite.com",
+  "port": 25565
+}

@@ -1,0 +1,23 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: minecraft_server
+      APP_PORT: 25565
+
+  minecraft_server:
+    image: itzg/minecraft-server:latest
+    restart: always
+    environment:
+      EULA: "TRUE"
+      VERSION: "1.17.1"
+      MAX_MEMORY: "1G"
+      TYPE: "BUKKIT"
+    volumes:
+      - ${APP_DATA_DIR}:/data
+    ports:
+      - "25565:25565"
+    networks:
+      default:
+        ipv4_address: $APP_MINECRAFT_SERVER_IP

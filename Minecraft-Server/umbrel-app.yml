@@ -1,0 +1,7 @@
+name: Minecraft Server
+version: 1.0.0
+description: Minecraft Server running on Umbrel
+developer: Your Name
+developerWebsite: Your Website
+icon: icon.png
+
